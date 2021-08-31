@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:PianoWpf1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <DockPanel >
+        <DockPanel>
+            
         <local:PianoControl ></local:PianoControl>
-    </DockPanel>
+        </DockPanel>
+
 
 </Window>
