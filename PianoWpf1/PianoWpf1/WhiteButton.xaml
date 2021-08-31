@@ -16,12 +16,20 @@
                     <ControlTemplate TargetType="{x:Type Button}">
                         <Grid x:Name="grid">
                             <Border x:Name="border" CornerRadius="20" BorderBrush="Black" BorderThickness="2" Background="Ivory">
-                                
                                 <ContentPresenter HorizontalAlignment="Center"
                                           VerticalAlignment="Center"
                                           TextElement.FontWeight="Bold">
+
                                 </ContentPresenter>
                             </Border>
+                            <Rectangle>
+                                <Rectangle.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FFFCFAFA"/>
+                                        <GradientStop Color="#CCFFFFFF" Offset="0.823"/>
+                                    </LinearGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
 
                         </Grid>
                         <ControlTemplate.Triggers>
@@ -54,7 +62,7 @@
             </Setter>
         </Style>
     </UserControl.Resources>
-        <Grid>
+    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
@@ -62,5 +70,5 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Button Style="{DynamicResource RoundedButtonStyle}" BorderBrush="Black"  />
-        </Grid>
+    </Grid>
 </UserControl>
