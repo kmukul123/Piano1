@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manufaktura.Controls.Avalonia.Test", "Manufaktura.Controls.Avalonia.Test.csproj", "{3A3D280E-7A68-48E5-82E1-AFEE90B6648B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manufaktura.Controls", "..\Manufaktura.Controls\Manufaktura.Controls.csproj", "{6DD77D40-97C1-4A4D-A944-93A03D11BEAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manufaktura.Controls.Avalonia", "..\Manufaktura.Controls.Avalonia\Manufaktura.Controls.Avalonia.csproj", "{0A22CFE5-BBBF-4580-B61A-65170927CCCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manufaktura.Controls.SMuFL", "..\Manufaktura.Controls.SMuFL\Manufaktura.Controls.SMuFL.csproj", "{8641AF09-BA1E-4E54-BCC8-559A8EF4148E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manufaktura.Core.Serialization", "..\Manufaktura.Core.Serialization\Manufaktura.Core.Serialization.csproj", "{D2F1E42B-18D2-4F1E-8684-ACC1D95209BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manufaktura.Core", "..\Manufaktura.Core\Manufaktura.Core.csproj", "{C075AB4A-E99A-410A-87D2-2A498BAA4288}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A3D280E-7A68-48E5-82E1-AFEE90B6648B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3D280E-7A68-48E5-82E1-AFEE90B6648B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3D280E-7A68-48E5-82E1-AFEE90B6648B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3D280E-7A68-48E5-82E1-AFEE90B6648B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD77D40-97C1-4A4D-A944-93A03D11BEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD77D40-97C1-4A4D-A944-93A03D11BEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD77D40-97C1-4A4D-A944-93A03D11BEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD77D40-97C1-4A4D-A944-93A03D11BEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A22CFE5-BBBF-4580-B61A-65170927CCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A22CFE5-BBBF-4580-B61A-65170927CCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A22CFE5-BBBF-4580-B61A-65170927CCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A22CFE5-BBBF-4580-B61A-65170927CCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8641AF09-BA1E-4E54-BCC8-559A8EF4148E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8641AF09-BA1E-4E54-BCC8-559A8EF4148E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8641AF09-BA1E-4E54-BCC8-559A8EF4148E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8641AF09-BA1E-4E54-BCC8-559A8EF4148E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F1E42B-18D2-4F1E-8684-ACC1D95209BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F1E42B-18D2-4F1E-8684-ACC1D95209BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F1E42B-18D2-4F1E-8684-ACC1D95209BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F1E42B-18D2-4F1E-8684-ACC1D95209BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C075AB4A-E99A-410A-87D2-2A498BAA4288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C075AB4A-E99A-410A-87D2-2A498BAA4288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C075AB4A-E99A-410A-87D2-2A498BAA4288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C075AB4A-E99A-410A-87D2-2A498BAA4288}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAD0B5D7-C2B1-42CF-A426-6FAFE6C89E0D}
+	EndGlobalSection
+EndGlobal

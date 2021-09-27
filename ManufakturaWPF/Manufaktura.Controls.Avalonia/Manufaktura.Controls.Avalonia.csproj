@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Bravura.otf" />
+    <None Remove="Assets\bravura_metadata.json" />
+    <None Remove="Assets\Gootville.otf" />
+    <None Remove="Assets\gootville_metadata.json" />
+    <None Remove="Assets\Polihymnia.ttf" />
+    <None Remove="NoteViewer.xaml" />
+    <None Remove="RadarChart.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Bravura.otf" />
+    <EmbeddedResource Include="Assets\bravura_metadata.json" />
+    <EmbeddedResource Include="Assets\Gootville.otf" />
+    <EmbeddedResource Include="Assets\gootville_metadata.json" />
+    <EmbeddedResource Include="Assets\Polihymnia.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="NoteViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadarChart.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Manufaktura.Controls.SMuFL\Manufaktura.Controls.SMuFL.csproj" />
+    <ProjectReference Include="..\Manufaktura.Controls\Manufaktura.Controls.csproj" />
+  </ItemGroup>
+
+</Project>

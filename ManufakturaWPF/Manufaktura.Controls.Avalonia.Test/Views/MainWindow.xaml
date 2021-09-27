@@ -1,0 +1,31 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:Manufaktura.Controls.Avalonia.Test.ViewModels;assembly=Manufaktura.Controls.Avalonia.Test"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:av="clr-namespace:Manufaktura.Controls.Avalonia;assembly=Manufaktura.Controls.Avalonia"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Manufaktura.Controls.Avalonia.Test.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Manufaktura.Controls.Avalonia.Test">
+
+  <Design.DataContext>
+    <vm:MainWindowViewModel />
+  </Design.DataContext>
+
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition />
+      <ColumnDefinition Width="120" />
+    </Grid.ColumnDefinitions>
+    <ScrollViewer Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+      <av:NoteViewer ScoreSource="{Binding Data}" MusicFont="{Binding MusicFont}" RenderingMode="AllPages" x:Name="testViewer" />
+    </ScrollViewer>
+    <StackPanel Grid.Column="1">
+      <Button Command="{Binding SetPolihymniaFont}">Polihymnia</Button>
+      <Button Command="{Binding SetBravuraFont}">Bravura</Button>
+      <Button Command="{Binding SetGootvilleFont}">Gootville</Button>
+      <Button Command="{Binding OpenFileCommand}">Otwórz...</Button>
+    </StackPanel>
+  </Grid>
+</Window>
